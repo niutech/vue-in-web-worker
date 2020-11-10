@@ -1,0 +1,4 @@
+node_modules/*
+!node_modules/@ampproject/
+node_modules/@ampproject/*
+!node_modules/@ampproject/worker-dom/
