@@ -1,6 +1,6 @@
 # Vue.js in Web Worker
 
-This is a demo app of Vue.js working in Web Worker using [WorkerDOM](https://github.com/ampproject/worker-dom), bundled by [Rollup.js](https://rollupjs.org/). This allows Vue.js to offload its work to a background thread and send updates back to the main thread asyncronously, which should greatly increase rendering performance. See this [blog post](https://amphtml.wordpress.com/2018/08/21/workerdom/) for details.
+This is a "hello world" demo app of Vue.js working in Web Worker using [WorkerDOM](https://github.com/ampproject/worker-dom), bundled by [Rollup.js](https://rollupjs.org/). This allows Vue.js to offload its work to a background thread and send updates back to the main thread asyncronously, which should greatly increase rendering performance. See this [blog post](https://amphtml.wordpress.com/2018/08/21/workerdom/) for details.
 
 ## Benchmarks
 
@@ -19,7 +19,7 @@ Develop you Vue.js app as always, using `main.js` as an entry point. In `index.h
 
 ## Building
 
-First run `npm install` to set up the project. To build the files in `dest` folder, run `npm run build` or `rollup -c`. Then start the local web server e.g. `python -m http.server` and go to [http://localhost:8000]. Your `index.html` should load `worker-dom.js`, which should asynchronously fetch and load both `worker.mjs` and `main.js` modules into Web Worker.
+First run `npm install` to set up the project. To build the files in `dest` folder, run `npm run build` or `rollup -c`. Then start the local web server e.g. `python -m http.server` and go to [http://localhost:8000](http://localhost:8000). Your `index.html` page should load `worker-dom.js`, which should asynchronously fetch and load both `worker.mjs` and `main.js` modules into Web Worker.
 
 ## License
 
