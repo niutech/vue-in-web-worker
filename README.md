@@ -1,6 +1,6 @@
 # [Vue.js in Web Worker](https://niutech.github.io/vue-in-web-worker/)
 
-This is a starter app of Vue.js working in Web Worker using [WorkerDOM](https://github.com/ampproject/worker-dom), bundled by [Rollup.js](https://rollupjs.org/). This allows Vue.js to offload its work to a background thread and send updates back to the main thread asyncronously, which should greatly increase rendering performance. See this [blog post](https://amphtml.wordpress.com/2018/08/21/workerdom/) for details.
+This is a starter app of Vue.js working in Web Worker using [WorkerDOM](https://github.com/ampproject/worker-dom), bundled by [Rollup.js](https://rollupjs.org/). This allows Vue.js to offload its work to a background thread and send updates back to the main thread asynchronously, which should greatly increase rendering performance. See this [blog post](https://amphtml.wordpress.com/2018/08/21/workerdom/) for details.
 
 ## Benchmarks
 
@@ -23,4 +23,4 @@ First run `npm install` to set up the project. To build the files in `dest` fold
 
 ## License
 
-© 2020 Jerzy Głowacki under Apache Lincese 2.0
+© 2021 Jerzy Głowacki under Apache Lincese 2.0
